@@ -7,10 +7,4 @@ Retrieval-Augmented Generation (RAG).
 - Runs fully offline
 - Uses FAISS vector search
 - No API keys required
-- Interview-ready architecture
-
-## How to Run
-
-1. Install dependencies
-```bash
-pip install -r requirements.txt
+   
