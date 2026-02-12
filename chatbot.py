@@ -2,9 +2,8 @@ from langchain_community.vectorstores import FAISS
 import numpy as np
 
 
-# ----------------------------------
-# SAME CALLABLE EMBEDDINGS
-# ----------------------------------
+
+# cAllablr EMBEDDINGS
 class LocalEmbeddings:
     def __call__(self, text):
         return self.embed_query(text)
@@ -41,4 +40,5 @@ while True:
     print("\nBot:")
     for doc in docs:
         print("-", doc.page_content)
+
     print()
